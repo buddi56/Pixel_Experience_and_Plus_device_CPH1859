@@ -107,7 +107,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # fstab
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/fstab.qcom:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/fstab.qcom
+    $(LOCAL_PATH)/configs/fstab.mt6771:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/fstab.mt6771
 
 # Manifest
 PRODUCT_COPY_FILES += \
