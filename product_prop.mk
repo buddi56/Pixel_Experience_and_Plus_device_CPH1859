@@ -191,8 +191,3 @@ dirac.path=/vendor/etc/dirac/17065
 ro.mtk_cam_stereo_camera_support=1
 ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp
 ro.build.keystore.path=/sdcard/.lii/
-
-# Brightness
-persist.extend.brightness=true
-persist.display.max_brightness=2047
-ro.custom.maxbrightness.scale=2047
